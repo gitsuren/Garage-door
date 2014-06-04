@@ -1,0 +1,44 @@
+<div ng-model = "pad"> <!--class="panel panel-default"-->
+
+  <!-- Table OLD STYLE
+  <table class="table table-striped table-bordered table-condensed"> -->
+  <!-- Table -->
+  <table class="table">
+    <tbody align="center" >
+      <tr>
+        <td colspan="2"> <label class="form-control"> {{pad.keycode}} </label></td>
+        <td ng-controller="statusLabelController" ng-model="door">
+          <button ng-click="getState()" class="btn btn-sm label-{{door.statusLabelColor}}"> {{door.status}} </button></td>
+      </tr>
+      <tr>
+        <td> <button ng-click="key('1')" class="btn btn-lg btn-default"> 1 </button> </td>
+        <td> <button ng-click="key('2')" class="btn btn-lg btn-default"> 2 </button> </td>
+        <td> <button ng-click="key('3')" class="btn btn-lg btn-default"> 3 </button> </td>
+      </tr>
+      <tr>
+        <td> <button ng-click="key('4')" class="btn btn-lg btn-default">  4  </button> </td>
+        <td> <button ng-click="key('5')" class="btn btn-lg btn-default"> 5 </button> </td>
+        <td> <button ng-click="key('6')" class="btn btn-lg btn-default"> 6 </button> </td>
+      </tr>
+      <tr>
+        <td> <button ng-click="key('7')" class="btn btn-lg btn-default"> 7 </button> </td>
+        <td> <button ng-click="key('8')" class="btn btn-lg btn-default"> 8 </button> </td>
+        <td> <button ng-click="key('9')" class="btn btn-lg btn-default"> 9 </button> </td>
+      </tr>
+      <tr>
+        <td>
+            <button ng-click="clear()" class="btn btn-lg btn-default">
+            <span class="glyphicon glyphicon-remove"></span>
+            </button>
+        </td>
+        <td> <button ng-click="key('0')" class="btn btn-lg btn-default"> 0 </button> </td>
+        <td>
+            <button ng-click="enter()" type="button" class="btn btn-lg btn-default">
+            <span class="glyphicon glyphicon-ok"></span>
+            </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
