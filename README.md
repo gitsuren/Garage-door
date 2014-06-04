@@ -7,7 +7,7 @@ Application to operate garage door from the web(mobile). The system has two key 
 
 The UI looks like this:
 
-![](./garage.png)
+![](./garage.PNG)
  
 ## Techniques and Tools
 The following technologies are used:
