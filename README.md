@@ -75,7 +75,7 @@ Allow the server access the GPIO pins by running export on the pins
 	gpio-admin export 17
 	gpio-admin export 22
 	
-Then you should be able to run the server, however please make sure you are using the correect driver for the door. See the [note](#driver):
+Then you should be able to run the server, however please make sure you are using the correect driver for the door. See the [note](#running-the-correct-driver):
 
 	node garage-server.js 
 
@@ -160,7 +160,7 @@ garage.sh is a script file in the user's (pi) home directory that should contain
 
 
 ## Notes and trouble shooting
-####Running the correct driver [driver]####
+####Running the correct driver
 If you are running the server in other environment than Raspberry (e.g. for test / development purposess) the make sure that you have commented out the correct line from _garage-server.js_ file
 
 	// This is for testing against dummy interface module
