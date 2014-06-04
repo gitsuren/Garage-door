@@ -1,6 +1,6 @@
-# Garage Door Opener with Rapberry Pi
+# Garage Door Opener with Raspberry Pi
 
-Application to operate garage door from the web. The system has two key components.
+Application to operate garage door from the web(mobile). The system has two key components.
 
 - HTML5 application that the users uses to operate the door
 - [NodeJS](http://nodejs.org) server running on the [RaspberryPi](http://en.wikipedia.org/wiki/Raspberry_Pi) and controlling the door via a relay, using the General Purpose I/O pins (GPIO) in the [Raspi](http://en.wikipedia.org/wiki/Raspberry_Pi).
@@ -27,7 +27,7 @@ The following technologies are used:
 - [GPIO Admin](https://github.com/quick2wire/quick2wire-gpio-admin) to manage access  to the GPIO pins.
 
 ### Hardware
-The following hardware with approximate prices
+The following or similar hardware is needed. I've included approximate prices for the hardware.
 
 - 1 * [RaspberryPI](http://www.adafruit.com/products/998). I've used model B, but model A should work as well ($39)
 - 1 * WiFi USB adapter e.g. [Dlink Wireless N150 Pico USB Adapter](http://www.dlink.com/us/en/home-solutions/connect/adapters/dwa-121-wireless-n-150-pico-usb-adapter) ($15)
